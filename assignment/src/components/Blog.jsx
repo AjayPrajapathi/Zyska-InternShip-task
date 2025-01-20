@@ -18,7 +18,7 @@ export const Blog = () => {
             Tools and strategies modern teams need to help their companies grow.
           </p>
         </div>
-        <button className="bg-customRed  w-[148px]  h-[48px]  sm:w-[148px] h-[48px] rounded-lg py-[12px] px-[20px] text-white">
+        <button className="bg-customRed   sm:w-[148px] h-[48px] rounded-lg py-[12px] px-[20px] text-white">
           View all posts
         </button>
       </div>

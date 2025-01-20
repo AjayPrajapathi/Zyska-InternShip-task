@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className="container flex justify-center items-center max-w-[528px] gap-10">
           <img src={assets.logo} className=""/>
           {/* Hides the navbar links for small screens */}
-          <ul className="max-w-[402px] flex justify-between items-center hidden sm:flex gap-3">
+          <ul className="max-w-[402px]  justify-between items-center hidden sm:flex gap-3">
             <li>Home</li>
             <li className="flex justify-between items-center">
               Products
