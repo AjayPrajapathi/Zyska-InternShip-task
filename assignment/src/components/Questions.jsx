@@ -20,16 +20,14 @@ export const Questions = ({ list }) => {
           key={index}
           className="flex w-full justify-between items-center gap-4 border-b border-gray-300 pb-4"
         >
-          <div className="flex flex-col w-[768px]">
+          <div className="flex flex-col max-w-[768px]">
             <h1 className="text-lg font-semibold text-gray-800">{item.question}</h1>
             {/* Reserve consistent height for the solution */}
             <p
               className={`mt-2 text-gray-600 transition-opacity duration-300 ${
                 item.Isvisible ? "visible" : "hidden"
               }`}
-            //   style={{
-            //     minHeight: "1.5rem", // Reserve space for one line of text
-            //   }}
+          
             >
               {item.solution}
             </p>
@@ -42,6 +40,7 @@ export const Questions = ({ list }) => {
           />
         </div>
       ))}
+
     </div>
   );
 };

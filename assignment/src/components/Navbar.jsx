@@ -1,21 +1,23 @@
+
 import { assets } from "../assets/asset";
 
 export const Navbar = () => {
   return (
-    <header className=" h-20 navbar navbar-expand-lg navbar-light bg-light flex justify-between items-center">
-      <div className="container flex justify-between w-[1440px] px-8 gap-10">
-        <div className="container flex justify-between items-center w-[528px]  gap-10">
-          <img src={assets.logo} />
-          <ul className="w-[402px] h-[32px] flex justify-between">
+    <header className="h-20 navbar navbar-expand-lg navbar-light bg-light flex justify-between items-center border-b border-slate-300">
+      <div className="container flex justify-between max-w-[1440px] px-8 gap-10">
+        <div className="container flex justify-center items-center max-w-[528px] gap-10">
+          <img src={assets.logo} className=""/>
+          {/* Hides the navbar links for small screens */}
+          <ul className="max-w-[402px] flex justify-between items-center hidden sm:flex gap-3">
             <li>Home</li>
             <li className="flex justify-between items-center">
-              Products{" "}
+              Products
               <span>
                 <img src={assets.chevranDown} />
               </span>
             </li>
             <li className="flex justify-between items-center">
-              Resources{" "}
+              Resources
               <span>
                 <img src={assets.chevranDown} />
               </span>
@@ -23,7 +25,13 @@ export const Navbar = () => {
             <li>Pricing</li>
           </ul>
         </div>
-        <img src={assets.avatar}></img>
+        <div className="flex items-center">
+          {/* Avatar shown only on screens larger than sm */}
+          <img src={assets.avatar} className="hidden sm:block" />
+          
+          {/* Burger icon shown only on small screens */}
+          <img src={assets.burgerIcon} className="block sm:hidden" />
+        </div>
       </div>
     </header>
   );

@@ -22,6 +22,8 @@ import fifthFeature from "./fifthFea.png";
 import sixthFeature from "./sixthFea.png";
 import sisyphus from "./sisyphus.png";
 
+// Arrows
+import arrowUpRight from "./arrow-up-right.png";
 // ------------
 import sisphusAvatar from "./sisphusAvatar.png";
 
@@ -29,7 +31,24 @@ import sisphusAvatar from "./sisphusAvatar.png";
 import minusIcon from "./minusIcon.png";
 import plusIcon from "./plusIcon.png";
 
+// images for one tow three settlement (FAQ-Section)
+import firstImage from "./firstImage.png";
+import secondImage from "./secondImage.png";
+import thirdImage from "./thirdImage.png";
+
+// blog Images
+import designImage from "./designImage.png";
+import designUser from "./designUser.png";
+import productImage from "./productImage.png";
+import productUser from "./productUser.png";
+import softwareImage from "./softwareImage.png";
+import softwareUser from "./softwareUser.png";
+import burgerIcon from "./burgerIcon.png";
+import arrowRight from "./arrow-right.png"
+import siii   from "./sssssi.png"
+
 export const assets = {
+
   logo,
   avatar,
   chevranDown,
@@ -45,6 +64,20 @@ export const assets = {
   sisphusAvatar,
   minusIcon,
   plusIcon,
+  firstImage,
+  secondImage,
+  thirdImage,
+  arrowUpRight,
+  designImage,
+  designUser,
+  productImage,
+  productUser,
+  softwareImage,
+  softwareUser,
+  burgerIcon,
+  arrowRight,
+  siii
+
 };
 
 // Feature List
@@ -100,32 +133,80 @@ export const faqList = [
   {
     question: "Can I change my plan later?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     question: "What is your cancellation policy?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
 
   {
     question: "Can other info be added to an invoice?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     question: "How does billing work?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     question: "What is your cancellation policy?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
   {
     question: "How do I change my account email?",
     isVisible: false,
-    solution: "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    solution:
+      "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
   },
 ];
+
+export const blogList = [{
+  image:designImage,
+  blogger:designUser,
+  name:"Design",
+  heading:"UX review presentations",
+  details:"How do you create compelling presentations that wow your colleagues and impress your managers?",
+  bloggerName:"Olivia Rhye" ,
+  date:"18 jan 2025",
+
+
+},{
+  image:productImage,
+  blogger:productUser,
+  name:"Products",
+  heading:"Migrating to Linear 101",
+  details:"Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
+  bloggerName:"Phoenix Baker" ,
+  date:"18 jan 2025",
+
+},{
+  image:softwareImage,
+  blogger:softwareUser,
+  name:"Software",
+  heading:"Building your API stack",
+  details:"The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+  bloggerName:"Lana Steiner",
+  date:"25 jan 2025",
+}];
+
+export const footerList={
+  product:["Overview","Features","Solutions","Tutorials","Pricing","Releases"],
+   company:["AboutUs","Careers","Press","News","MediaKit","Contact"],
+   resources:["Blog","Newsletter","Events","Help centre","Tutorial"],
+   useCases:["Startups","EnterPrise","Government","Saas Centre","MarketPlaces","Ecommerce"],
+   social:["Twitter","LinkedIn","Facebook","GitHub","AngelList","Dribble"],
+   legal:["Terms","privacy","Cookies","Licenses","Settings","Contract"]
+
+}
+
+
+

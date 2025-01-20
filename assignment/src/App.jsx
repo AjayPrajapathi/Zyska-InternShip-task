@@ -9,17 +9,23 @@ import { SocialProof } from './components/SocialProof'
 import { Features } from './components/Features'
 import { Testimonial } from './components/Testimonial'
 import { FAQSection } from './components/FAQSection'
+import { Blog } from './components/Blog'
+import { CTASection } from './components/CTASection'
+import { Footer } from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
   return (<div>
      <Navbar />
     <Introduction/>
-    <Image/>
+    {/* <Image/> */}
     <SocialProof/>
     <Features/>
     <Testimonial/>
     <FAQSection/>
+    <Blog/>
+    <CTASection/>
+    <Footer/>
   </div>
   )
 }
