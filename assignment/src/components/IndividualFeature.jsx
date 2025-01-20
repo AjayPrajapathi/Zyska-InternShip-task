@@ -1,3 +1,4 @@
+import React from "react";
 export const IndividualFeature = ({ image, heading, details }) => {
   return (
     <div className="w-full sm:w-[384px] h-auto sm:h-[178px] flex flex-col justify-center items-center gap-5 px-4 sm:px-0">

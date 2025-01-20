@@ -1,4 +1,4 @@
-
+import React from "react";
 import { blogList } from "../assets/asset.js";
 import { BlogCard } from "./BlogCard";
 

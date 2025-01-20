@@ -12,7 +12,7 @@ import { Blog } from "./components/Blog";
 import { CTASection } from "./components/CTASection";
 import { Footer } from "./components/Footer";
 function App() {
-  const [count, setCount] = useState(0);
+
 
   return (
     <div>

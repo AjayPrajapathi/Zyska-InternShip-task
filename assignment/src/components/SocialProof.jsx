@@ -1,3 +1,4 @@
+import React from "react";
 import { Company } from "./Company";
 import { assets } from "../assets/asset.js";
 

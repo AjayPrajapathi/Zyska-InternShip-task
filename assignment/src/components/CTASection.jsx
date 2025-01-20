@@ -1,3 +1,4 @@
+import React from "react";
 export const CTASection = () => {
   return (
     <div className="flex flex-col justify-center items-center py-24 gap-16 bg-bgColor ">

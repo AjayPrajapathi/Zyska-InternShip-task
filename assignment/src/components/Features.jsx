@@ -1,3 +1,4 @@
+import React from "react";
 import { featureList } from "../assets/asset.js";
 import { IndividualFeature } from "./IndividualFeature";
 

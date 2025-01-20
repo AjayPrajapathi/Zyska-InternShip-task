@@ -1,3 +1,5 @@
+import React from "react";
+
 export const FooterList = ({ list, heading }) => {
   return (
     <div className="flex flex-col">

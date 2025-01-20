@@ -1,4 +1,4 @@
-
+import React from "react";
 import { assets, footerList } from "../assets/asset.js";
 import { FooterList } from "./FooterList";
 
