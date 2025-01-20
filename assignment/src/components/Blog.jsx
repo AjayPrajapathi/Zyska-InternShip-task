@@ -1,5 +1,5 @@
 
-import { blogList } from "../assets/asset";
+import { blogList } from "../assets/asset.js";
 import { BlogCard } from "./BlogCard";
 
 export const Blog = () => {

@@ -1,5 +1,5 @@
 
-import { assets, footerList } from "../assets/asset";
+import { assets, footerList } from "../assets/asset.js";
 import { FooterList } from "./FooterList";
 
 export const Footer = () => {

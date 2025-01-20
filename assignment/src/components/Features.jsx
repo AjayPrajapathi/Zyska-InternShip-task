@@ -1,5 +1,4 @@
-
-import { featureList } from "../assets/asset";
+import { featureList } from "../assets/asset.js";
 import { IndividualFeature } from "./IndividualFeature";
 
 export const Features = () => {
@@ -13,7 +12,8 @@ export const Features = () => {
         <div className="max-w-[768px] flex flex-col justify-center items-center text-center text-customBlack text-xl">
           <p>
             Powerful, self-serve product and growth analytics to help you
-            convert, engage, and retain more users. Trusted by over 4,000 startups.
+            convert, engage, and retain more users. Trusted by over 4,000
+            startups.
           </p>
         </div>
       </div>

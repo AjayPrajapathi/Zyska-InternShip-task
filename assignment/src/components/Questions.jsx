@@ -1,5 +1,5 @@
 
-import { assets } from "../assets/asset";
+import { assets } from "../assets/asset.js";
 import { useState } from "react";
 
 export const Questions = ({ list }) => {

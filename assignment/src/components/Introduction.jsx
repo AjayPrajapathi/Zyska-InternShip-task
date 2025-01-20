@@ -1,4 +1,4 @@
-import { assets } from "../assets/asset";
+import { assets } from "../assets/asset.js";
 import { Image } from "./Image";
 
 export const Introduction = () => {

@@ -1,5 +1,5 @@
 import { Company } from "./Company";
-import { assets } from "../assets/asset";
+import { assets } from "../assets/asset.js";
 
 export const SocialProof = () => {
   return (

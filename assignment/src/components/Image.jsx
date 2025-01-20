@@ -1,4 +1,4 @@
-import { assets } from "../assets/asset";
+import { assets } from "../assets/asset.js";
 
 export const Image = () => {
   return (
