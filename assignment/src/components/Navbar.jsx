@@ -27,7 +27,7 @@ export const Navbar = () => {
         </div>
         <div className="flex items-center">
           {/* Avatar shown only on screens larger than sm */}
-          <img src={assets.avatar} className="hidden sm:block" />
+          <img src={assets.productUser} className="hidden sm:block" />
           
           {/* Burger icon shown only on small screens */}
           <img src={assets.burgerIcon} className="block sm:hidden" />
